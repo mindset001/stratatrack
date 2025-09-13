@@ -1,3 +1,5 @@
+'use client'
+
 import Footer from '@/app/components/Footer';
 import React, { useState } from 'react'
 
