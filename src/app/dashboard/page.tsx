@@ -151,7 +151,7 @@ export default function Dashboard() {
                     <td style={{ borderBottom: '1px solid #eee', padding: '0.75rem', textAlign: 'left' }}>{row.from}</td>
                     <td style={{ borderBottom: '1px solid #eee', padding: '0.75rem', textAlign: 'left' }}>{row.to}</td>
                     <td style={{ borderBottom: '1px solid #eee', padding: '0.75rem', textAlign: 'left' }}>{row.lithology}</td>
-                    <td style={{ borderBottom: '1px solid #eee', padding: '0.75rem', textAlign: 'left' }}>{row.description}</td>
+                    {/* <td style={{ borderBottom: '1px solid #eee', padding: '0.75rem', textAlign: 'left' }}>{row.description}</td> */}
                   </tr>
                 ))}
               </tbody>
@@ -164,7 +164,7 @@ export default function Dashboard() {
                 <tr>
                   <th style={{ borderBottom: '1px solid #ccc', padding: '0.75rem', textAlign: 'left' }}>Source</th>
                   <th style={{ borderBottom: '1px solid #ccc', padding: '0.75rem', textAlign: 'left' }}>Type</th>
-                  <th style={{ borderBottom: '1px solid #ccc', padding: '0.75rem', textAlign: 'left' }}>Entries</th>
+                  {/* <th style={{ borderBottom: '1px solid #ccc', padding: '0.75rem', textAlign: 'left' }}>Entries</th> */}
                   <th style={{ borderBottom: '1px solid #ccc', padding: '0.75rem', textAlign: 'left' }}>Last Import</th>
                 </tr>
               </thead>
