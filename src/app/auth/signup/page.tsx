@@ -1,7 +1,7 @@
 'use client'
 import React, { useState } from 'react'
 
-function page() {
+export default function Page() {
   const [form, setForm] = useState({ firstName: "", lastName: "", email: "", password: "", confirmPassword: "" });
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState("");
@@ -155,5 +155,3 @@ function page() {
    </div>
   );
 }
-
-export default page
